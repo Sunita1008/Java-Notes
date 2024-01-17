@@ -4,6 +4,8 @@
 - present in java.util package
 - does not inherit collection interface
 - Map was introduced in JDK 1.2 version
+
+  ![git_map](https://github.com/Sunita1008/Java-Notes/assets/110041267/3afbc465-5b59-4197-abf3-427d4b551c24)
 # Syntax
 
 package java.util;
