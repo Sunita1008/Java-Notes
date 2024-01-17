@@ -1,10 +1,10 @@
-#Introduction
+# Introduction
 
 Map is an interface
 present in java.util package
 does not inherit collection interface
 
-#Syntax
+# Syntax
 
 package java.util;
 public interface Map
@@ -14,7 +14,7 @@ public interface Map
 
 Map was introduced in JDK 1.2 version
 
-#Properties
+# Properties
 
 Map stores the data in form of key- value pair.
 Ex- name(value) | rollno(unique,key)
