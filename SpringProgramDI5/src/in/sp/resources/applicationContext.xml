@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+  
+  <!-- Setter Method DI:-
+       1.Dependencies are injected into class using setter method
+       2.Setter method DI are more readable
+       3.Setter method DI are more flexible
+   -->
+   
+<bean class="in.sp.beans.Student" id="stdID">
+<property name="name" value="Alisha"></property>
+<property name="roll" value="1"></property>
+<property name="address" ref="AddrID"></property>
+</bean>
+
+<bean class="in.sp.beans.Address" id="AddrID">
+<property name="houseno" value="111"></property>
+<property name="city" value="Jamshedpur"></property>
+<property name="pincode" value="832104"></property>
+</bean>
+</beans>

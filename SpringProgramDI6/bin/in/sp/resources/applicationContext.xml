@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+  
+  <!-- Constructor DI:-
+          1.Dependencies are injected into class through constructor
+          2.Constructor DI is less readable
+          3.Constructor DI is less flexible 
+   -->
+          
+          
+<bean class="in.sp.beans.Student" id="stdID">
+<constructor-arg value="Pratyansh"/>
+<constructor-arg value="21"/>
+<constructor-arg ref="AddrID"/>
+</bean>
+
+<bean class="in.sp.beans.Address" id="AddrID">
+<constructor-arg value="111"/>
+<constructor-arg value="Jamshedpur"/>
+<constructor-arg value="832104"/>
+</bean>
+</beans>
