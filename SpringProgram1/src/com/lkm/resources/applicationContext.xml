@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+  
+ <!-- In Xml configuration , we specify an "id" attribute to specify the bean name, and we specify class name using "class" attribute. -->  
+<bean class="com.lkm.acc.Student" id="StdID1">
+<property name="name" value="Sunita"/>
+<property name="age" value="23"/>
+<property name="roll" value="13943994"/>
+</bean>
+
+    
+<bean class="com.lkm.acc.Student" id="StdID2">
+<property name="name" value="Anu"/>
+<property name="age" value="23"/>
+<property name="roll" value="13943994"/>
+</bean>
+
+</beans>
